@@ -146,3 +146,6 @@ section{padding:clamp(72px,9vw,124px) 0}
 .reel[data-s="son"] .snd{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23e7cf98' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 9v6h4l5 4V5L8 9H4z'/%3E%3Cpath d='M16 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11'/%3E%3C/svg%3E")}
 .mosaic .a{position:relative}.mosaic .a img{position:absolute;inset:0}
 a[href^="tel:"],bdi{white-space:nowrap}
+
+/* en-tête mobile : logo sur une ligne, accueil sous la barre (28/10) */
+.brand b{white-space:nowrap}.hero .wrap{padding-top:96px}@media(max-width:640px){.brand b{font-size:.98rem;letter-spacing:.14em}.brand small{letter-spacing:.24em}.nav{gap:0}.langs a{padding:8px 4px;min-width:40px}}
