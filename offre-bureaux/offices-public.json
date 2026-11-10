@@ -1,0 +1,278 @@
+[
+  {
+    "code": "RG-B-GOLAN",
+    "name_he": "משרד עורכי דין אריאל גולן ושות'",
+    "name_en": "Ariel Golan & Co. Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-BITON",
+    "name_he": "ביטון בר-אשר, משרד עורכי דין",
+    "name_en": "Biton Bar-Asher Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-SRUBIN",
+    "name_he": "משרד עו״ד שלהבת רובין",
+    "name_en": "Shelhavet Rubin Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-DINVEOD",
+    "name_he": "בן דוד-אברהם-הכהן עורכי דין",
+    "name_en": "Ben David-Abraham-HaCohen Law",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-HAHN",
+    "name_he": "משרד עורכי דין ונוטריון שמעון האן",
+    "name_en": "Shimon Hahn Law & Notary",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-ARNON",
+    "name_he": "ארנון, תדמור-לוי",
+    "name_en": "Arnon, Tadmor-Levy",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-EGERT",
+    "name_he": "אגרט את כהן, סוכנות ביטוח",
+    "name_en": "Egert & Cohen Insurance Agency",
+    "category": "insurance"
+  },
+  {
+    "code": "RG-B-SHAPIRA",
+    "name_he": "משרד עו״ד אסף שפירא",
+    "name_en": "Assaf Shapira Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-SHAYARC",
+    "name_he": "שעיה רוט אדריכלים",
+    "name_en": "Shaya Roth Architects",
+    "category": "architect"
+  },
+  {
+    "code": "RG-B-ABY",
+    "name_he": "משרד עורכי הדין אביטן בן שימול יקותיאל",
+    "name_en": "Avitan Ben Shimol Yekutiel Law",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-SHILOH",
+    "name_he": "צבי שילה ושות׳ משרד עורכי דין ונוטריון",
+    "name_en": "Zvi Shiloh & Co. Law & Notary",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-ATARI",
+    "name_he": "משרד עורכי דין אריאל עטרי",
+    "name_en": "Ariel Atari Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-REGEV",
+    "name_he": "רגב, מזרחי ושות'",
+    "name_en": "Regev, Mizrahi & Co.",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-SHOSHAN",
+    "name_he": "משרד עורכי דין יהודה שושן",
+    "name_en": "Yehuda Shoshan Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-DUB",
+    "name_he": "לארי דאב ושות' — משרד עורכי דין ונוטריון",
+    "name_en": "Larry Dub & Co. Law & Notary",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-JESSURUN",
+    "name_he": "שמואל ישורון, יועץ מס",
+    "name_en": "Shmuel Jessurun, Tax Advisor",
+    "category": "tax_advisor"
+  },
+  {
+    "code": "RG-B-LANDAU",
+    "name_he": "א. לנדוי משרד עורכי דין",
+    "name_en": "A. Landau Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-DIDI",
+    "name_he": "משרד עורכי דין ידידיה בלויגרונד",
+    "name_en": "Yedidya Blaugrund Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-YARIV",
+    "name_he": "ד״ר שחל יריב משרד עורכי דין",
+    "name_en": "Dr. Shahal Yariv Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-RUBIN",
+    "name_he": "רובין משרד עורכי דין",
+    "name_en": "Rubin Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-FANO",
+    "name_he": "פאנו שמאות",
+    "name_en": "Fano Appraisals",
+    "category": "appraiser"
+  },
+  {
+    "code": "RG-B-FELDMAN",
+    "name_he": "משרד עורכי דין ציקי פלדמן",
+    "name_en": "Tsiki Feldman Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-YOMA",
+    "name_he": "יומא אדריכלים",
+    "name_en": "YOMA Architects",
+    "category": "architect"
+  },
+  {
+    "code": "RG-B-HOREV",
+    "name_he": "משרד עורכי דין אביטל חורף ושות'",
+    "name_en": "Avital Horev & Co. Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-HADDAD",
+    "name_he": "חדד אדריכלים",
+    "name_en": "Haddad Architects",
+    "category": "architect"
+  },
+  {
+    "code": "RG-B-RWH",
+    "name_he": "רבינא וייס הלוי אדריכלים",
+    "name_en": "Ravina Weiss Halevy Architects",
+    "category": "architect"
+  },
+  {
+    "code": "RG-B-RCOHEN",
+    "name_he": "ראובן כהן, שמאי מקרקעין",
+    "name_en": "Reuven Cohen, Land Appraiser",
+    "category": "appraiser"
+  },
+  {
+    "code": "RG-B-GOZLAN",
+    "name_he": "אייל גוזלן משרד עורכי דין",
+    "name_en": "Eyal Gozlan Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-RIVAL",
+    "name_he": "משרד עורכי דין ריול עדיקה",
+    "name_en": "Rival Adika Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-BARASHI",
+    "name_he": "משרד צליל בראשי",
+    "name_en": "Tzlil Barashi Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-MOLHO",
+    "name_he": "י. מולכו אדריכלים",
+    "name_en": "J. Molho Architects",
+    "category": "architect"
+  },
+  {
+    "code": "RG-B-GALANTI",
+    "name_he": "משרד עו״ד מקרקעין לימור גלנטי – ירושלמי",
+    "name_en": "Limor Galanti-Yerushalmi Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-OKATZ",
+    "name_he": "אופיר כץ ושות'",
+    "name_en": "Ofir Katz & Co.",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-HAREL",
+    "name_he": "משרד עורכי דין נמרוד חיים הראל",
+    "name_en": "Nimrod Haim Harel Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-KPSC",
+    "name_he": "קמחי שילה פלד כהן ושות'",
+    "name_en": "Kimchi Shiloh Peled Cohen & Co.",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-ALEVY",
+    "name_he": "משרד עורכי דין ענת לוי ושות'",
+    "name_en": "Anat Levy & Co. Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-ULIEL",
+    "name_he": "משרד עורכי דין תעבורה יערית אוליאל",
+    "name_en": "Yaarit Uliel Traffic Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-AVITAN",
+    "name_he": "אביטן ושות' משרד עורכי דין ונוטריון",
+    "name_en": "Avitan & Co. Law & Notary",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-SHNEOR",
+    "name_he": "משרד עורכי דין קרן שניאור",
+    "name_en": "Keren Shneor Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-LERNER",
+    "name_he": "משרד עו״ד ד״ר ראובן לרנר ושות'",
+    "name_en": "Dr. Reuven Lerner & Co. Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-GOHAR",
+    "name_he": "משרד עורכי דין ונוטריון אתי גוהר",
+    "name_en": "Eti Gohar Law & Notary",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-JOSEF",
+    "name_he": "משרד עו״ד נוטריון ומגשר דויד יוסף",
+    "name_en": "David Josef Law, Notary & Mediation",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-CARMI",
+    "name_he": "כרמי רונן, משרד עו״ד",
+    "name_en": "Carmi Ronen Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-AMITAY",
+    "name_he": "משרד עורכי הדין אמיתי & סורוצקין",
+    "name_en": "Amitay & Sorotzkin Law Office",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-PARDES",
+    "name_he": "משרד עו״ד ונוטריון משה פרדס",
+    "name_en": "Moshe Pardes Law & Notary",
+    "category": "lawyer"
+  },
+  {
+    "code": "RG-B-EFRATI",
+    "name_he": "גיל אפרתי ושות' משרד עורכי דין",
+    "name_en": "Gil Efrati & Co. Law Office",
+    "category": "lawyer"
+  }
+]
