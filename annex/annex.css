@@ -4,7 +4,7 @@
 html[lang="he"]{--serif:"Frank Ruhl Libre",Georgia,serif;--sans:Heebo,system-ui,sans-serif}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--ink);color:#efe8da;font:16px/1.6 var(--sans);overflow-x:hidden}
-img{display:block;max-width:100%}a{color:inherit}
+img{display:block;max-width:100%;height:auto}a{color:inherit}
 :focus-visible{outline:2px solid var(--gold2);outline-offset:3px}
 h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.08;margin:0}
 .wrap{max-width:1080px;margin:0 auto;padding:0 18px}
@@ -57,7 +57,8 @@ html[lang="he"] .ev .k{letter-spacing:.04em}
 .flyer img{width:100%;border:1px solid rgba(201,164,92,.35);box-shadow:0 20px 50px rgba(0,0,0,.45)}
 .gallery{display:grid;gap:8px;grid-template-columns:repeat(2,1fr)}
 @media(min-width:760px){.gallery{grid-template-columns:repeat(4,1fr)}}
-.gallery img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.gallery figure{margin:0;aspect-ratio:4/5;overflow:hidden;background:var(--ink2)}
+.gallery img{width:100%;height:100%;object-fit:cover}
 .info{display:grid;gap:18px;grid-template-columns:1fr}
 @media(min-width:760px){.info{grid-template-columns:repeat(3,1fr)}}
 .info h3{font-size:1.4rem;color:var(--gold2);margin-bottom:6px}
@@ -82,3 +83,17 @@ footer{border-top:1px solid rgba(201,164,92,.18);padding:28px 0 90px;color:var(-
 [hidden]{display:none!important}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 .nonum li::before{display:none}.nonum li{font:500 1.35rem/1.2 var(--serif);color:#fff}
+
+/* v2 : QR partenaire, images sans déformation, responsive */
+.hero picture img,.hero>img{height:100%!important}
+.hero{min-height:min(78vh,820px)}
+@media(max-width:700px){.hero{min-height:88vh}.hero .wrap{padding-top:120px}}
+.card img,.flyer img{width:100%;height:auto;aspect-ratio:1/1;object-fit:cover}
+.qrbox{margin-top:22px;background:#fff;color:#17130a;padding:18px;display:inline-flex;flex-direction:column;align-items:center;gap:6px;max-width:100%;border:1px solid rgba(201,164,92,.6)}
+.qrbox img{width:min(260px,64vw);height:auto;aspect-ratio:1/1;image-rendering:pixelated;image-rendering:crisp-edges}
+.qrbox .code{font:700 1.5rem/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.06em;direction:ltr;padding:8px 14px;border:2px dashed #b38d45}
+.qrbox .meta{margin:4px 0 0;font-size:.85rem;color:#3b352a;text-align:center}
+.vch .vqr{width:min(240px,62vw);height:auto;aspect-ratio:1/1;margin:12px auto 0;image-rendering:pixelated;image-rendering:crisp-edges}
+.offer>div{min-width:0}
+h1,h2,h3,p,li{overflow-wrap:anywhere}
+@media(min-width:1600px){.wrap{max-width:1200px}}
