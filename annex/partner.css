@@ -37,7 +37,7 @@ html[dir="ltr"] .brand small{text-align:start}
 .hero picture img{animation:kb 28s var(--ease) both;transform-origin:50% 60%}
 @keyframes kb{from{transform:scale(1.08)}to{transform:scale(1)}}
 .hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(13,14,19,.76) 0%,rgba(13,14,19,.52) 22%,rgba(13,14,19,.88) 50%,var(--ink) 94%)}
-@media(max-width:700px){.hero picture img{object-position:68% 50%}}
+@media(max-width:700px){.hero picture img{inset:auto 0 0 0;height:142%!important;object-position:70% 100%}.hero.bar-photo picture img{inset:0;height:100%!important;object-position:60% 50%}}
 .hero .wrap{width:100%;padding-top:64px;padding-bottom:clamp(28px,5vh,60px)}
 @media(min-width:900px){.hero{min-height:min(78svh,680px)}.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(270deg,rgba(13,14,19,.78),rgba(13,14,19,0) 60%)}html[dir="ltr"] .hero::before{background:linear-gradient(90deg,rgba(13,14,19,.78),rgba(13,14,19,0) 60%)}}
 @media(max-height:700px) and (max-width:560px){.hero h1.xl{font-size:clamp(3.4rem,17vw,5rem)}.hero .sub{margin-top:6px}.lead{margin-top:12px}.btns{margin-top:20px;gap:12px}}
@@ -52,7 +52,8 @@ html[lang="he"] .eyebrow{letter-spacing:.05em;font-size:.92rem;text-transform:no
 html[lang="he"] .hero h1 em{font-style:normal;font-weight:500}
 .hero h1 em.inl{display:inline}
 .hero h1.xl{font-size:clamp(4rem,19vw,7.4rem);line-height:.98}
-.hero h1.long em{font-size:.74em;line-height:1.14}
+.hero h1.long{font-size:clamp(2rem,7.7vw,4.3rem)}
+.hero h1.long em{line-height:1.14}
 .hero h1,.hero .lead,.hero .eyebrow,.hero .sub{text-shadow:0 2px 18px rgba(0,0,0,.55)}
 .hero .sub{font:500 clamp(1.35rem,4.6vw,2rem)/1.2 var(--serif);color:var(--gold2);margin:10px 0 0}
 .lead{font-size:clamp(1.02rem,2.2vw,1.16rem);color:#e9e0cf;max-width:44ch;margin:18px 0 0}
@@ -159,7 +160,8 @@ footer{border-top:1px solid var(--line);padding:30px 0 112px;color:var(--muted);
 footer .wrap{display:flex;flex-wrap:wrap;gap:8px 22px;align-items:center;justify-content:space-between}
 .closing{text-align:center;padding:clamp(64px,11vw,120px) 0;background:var(--ink2)}.closing .sec-t{margin-bottom:26px}.closing .btns{justify-content:center;margin-top:0}
 @media(max-width:560px){.closing .btns .btn{flex:0 1 100%}}
-footer p{margin:0 0 6px}footer a{text-underline-offset:4px}
+footer p{margin:0 0 6px}footer a{text-decoration:none;border-bottom:1px solid var(--line);padding-bottom:2px;transition:color .3s var(--ease)}footer a:hover{color:#fff}
+.nw{white-space:nowrap}
 
 /* bouton collant : n'apparaît que lorsque les boutons du héros ont quitté l'écran */
 .sticky{position:fixed;inset:auto 0 0 0;z-index:25;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:linear-gradient(180deg,rgba(13,14,19,0),rgba(13,14,19,.94) 34%);display:flex;justify-content:center;transform:translateY(110%);transition:transform .5s var(--ease);pointer-events:none}
