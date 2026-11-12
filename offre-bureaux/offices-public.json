@@ -274,5 +274,11 @@
     "name_he": "גיל אפרתי ושות' משרד עורכי דין",
     "name_en": "Gil Efrati & Co. Law Office",
     "category": "lawyer"
+  },
+  {
+    "code": "RG-B-WEWORK",
+    "name_he": "WeWork ירושלים",
+    "name_en": "WeWork Jerusalem",
+    "category": "coworking"
   }
 ]
