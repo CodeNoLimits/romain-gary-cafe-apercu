@@ -3,7 +3,9 @@
   var L=['en','he','fr'];
   function pick(){var q=new URLSearchParams(location.search).get('l');if(L.indexOf(q)>=0)return q;
     var s=null;try{s=localStorage.getItem('rg_l')}catch(e){};if(L.indexOf(s)>=0)return s;
-    var n=(navigator.language||'en').slice(0,2);return n==='he'||n==='iw'?'he':(n==='fr'?'fr':'en');}
+    // 12/11 (David) : on est en Israël, la page s'ouvre en hébreu ; l'anglais seulement pour un téléphone réglé en anglais sans hébreu ; le français par le bouton.
+    var ls=(navigator.languages&&navigator.languages.length?navigator.languages:[navigator.language||'he']).map(function(x){return String(x).slice(0,2)});
+    if(ls.indexOf('he')>=0||ls.indexOf('iw')>=0)return 'he';return ls[0]==='en'?'en':'he';}
   function set(l){document.documentElement.lang=l;document.documentElement.dir=l==='he'?'rtl':'ltr';
     document.querySelectorAll('[data-l]').forEach(function(e){e.hidden=e.getAttribute('data-l')!==l});
     document.querySelectorAll('.langs button').forEach(function(b){b.setAttribute('aria-pressed',b.dataset.set===l)});
