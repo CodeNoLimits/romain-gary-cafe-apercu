@@ -24,7 +24,7 @@
   // (et jamais par-dessus le billet ou le QR que l'on montre à la caisse)
   var st=D.querySelector('.sticky'),hb=D.querySelector('.hero .btns'),vis=new Set();
   if(st&&hb&&'IntersectionObserver' in window){var so=new IntersectionObserver(function(es){es.forEach(function(e){e.isIntersecting?vis.add(e.target):vis.delete(e.target)});st.classList.toggle('show',vis.size===0)});
-    so.observe(hb);D.querySelectorAll('.ticket,.qrbox,footer').forEach(function(e){so.observe(e)})}
+    so.observe(hb);D.querySelectorAll('.ticket,.qrbox,.closing,footer').forEach(function(e){so.observe(e)})}
   else if(st)st.classList.add('show');
 
   // apparitions
