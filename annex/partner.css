@@ -36,7 +36,8 @@ html[dir="ltr"] .brand small{text-align:start}
 .hero picture,.hero picture img,.hero>img{position:absolute;inset:0;width:100%;height:100%!important;object-fit:cover;z-index:-2}
 .hero picture img{animation:kb 28s var(--ease) both;transform-origin:50% 60%}
 @keyframes kb{from{transform:scale(1.08)}to{transform:scale(1)}}
-.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(13,14,19,.7) 0%,rgba(13,14,19,.36) 28%,rgba(13,14,19,.9) 64%,var(--ink) 100%)}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(13,14,19,.76) 0%,rgba(13,14,19,.52) 22%,rgba(13,14,19,.88) 50%,var(--ink) 94%)}
+@media(max-width:700px){.hero picture img{object-position:68% 50%}}
 .hero .wrap{width:100%;padding-top:64px;padding-bottom:clamp(28px,5vh,60px)}
 @media(min-width:900px){.hero{min-height:min(78svh,680px)}.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(270deg,rgba(13,14,19,.78),rgba(13,14,19,0) 60%)}html[dir="ltr"] .hero::before{background:linear-gradient(90deg,rgba(13,14,19,.78),rgba(13,14,19,0) 60%)}}
 @media(max-height:700px) and (max-width:560px){.hero h1.xl{font-size:clamp(3.4rem,17vw,5rem)}.hero .sub{margin-top:6px}.lead{margin-top:12px}.btns{margin-top:20px;gap:12px}}
@@ -119,6 +120,18 @@ a.card:hover{border-color:var(--gold2)}
 .card .k{display:block;margin-top:16px;font:500 .86rem/1.3 var(--sans);color:var(--gold2);letter-spacing:.05em}
 .card .k+h3{margin-top:6px}.card p{margin:.5em 0 0}.card .lnk{margin-top:12px}
 @media(min-width:860px){.offer .qrbox{margin-top:8px;justify-self:center}}
+.prog{list-style:none;margin:28px 0 0;padding:0;border-top:1px solid var(--line)}
+.prog li{display:grid;grid-template-columns:minmax(5.2rem,auto) 1fr;gap:6px 20px;align-items:start;padding:20px 0;border-bottom:1px solid var(--line)}
+.prog .dt{font:500 clamp(2rem,7vw,2.7rem)/1 "Frank Ruhl Libre","Cormorant Garamond",Georgia,serif;color:#fff;direction:ltr;unicode-bidi:isolate;text-align:end}
+html[dir="ltr"] .prog .dt{text-align:start}
+.prog li.reg .dt{color:var(--gold2)}
+.prog .wh{display:block;font:500 .84rem/1.3 var(--sans);color:var(--gold2);letter-spacing:.05em;margin-bottom:5px}
+.prog .tt{font:500 clamp(1.3rem,3.6vw,1.65rem)/1.2 var(--serif);color:#fff}
+.prog .tt small{display:block;font:400 .94rem/1.5 var(--sans);color:var(--muted);margin-top:5px}
+.prog .lnk{grid-column:2;justify-self:start;margin-top:6px}
+.prog-note{margin:16px 0 0;font-size:.92rem;color:var(--muted)}
+@media(min-width:760px){.prog li{grid-template-columns:9.5rem 1fr auto;align-items:center;padding:26px 0}.prog .lnk{grid-column:3;margin-top:0}}
+.h1sub{display:block;font-size:.62em;line-height:1.2;color:#fff;font-weight:300;margin-top:.18em}
 .flyer{display:grid;gap:26px;align-items:center;grid-template-columns:1fr}
 @media(min-width:820px){.flyer{grid-template-columns:.95fr 1.05fr;gap:48px}}
 .flyer img{border:1px solid rgba(201,164,92,.35);box-shadow:0 24px 54px -18px rgba(0,0,0,.7)}
@@ -129,6 +142,7 @@ a.card:hover{border-color:var(--gold2)}
 .gallery figure{margin:0;aspect-ratio:4/5;overflow:hidden;background:var(--ink2);border-radius:2px}
 .gallery figure.w{grid-column:span 2;aspect-ratio:8/5}
 .gallery.trio img{filter:saturate(.9) contrast(1.04)}
+@media(min-width:760px){.gallery.trio figure,.gallery.trio figure.w{aspect-ratio:auto;height:clamp(250px,27vw,330px)}}
 .gallery img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease)}
 .gallery figure:hover img{transform:scale(1.04)}
 
@@ -138,7 +152,7 @@ a.card:hover{border-color:var(--gold2)}
 @media(min-width:760px){.info{grid-template-columns:repeat(3,1fr);border-bottom:1px solid var(--line)}.info>div{padding:26px 26px 28px;border-bottom:0;border-inline-start:1px solid var(--line)}.info>div:first-child{border-inline-start:0;padding-inline-start:0}}
 .info h3{font:600 .78rem/1.3 var(--sans);letter-spacing:.16em;text-transform:uppercase;color:var(--gold2);margin-bottom:10px}
 html[lang="he"] .info h3{letter-spacing:.05em;font-size:.88rem}
-.info p{margin:0;font:400 1.22rem/1.4 var(--serif);color:#fff}
+.info p{margin:0;font:400 1.22rem/1.4 var(--serif);color:#fff;text-wrap:balance}
 .info .btn{margin-top:16px;min-height:46px;padding:0 20px;font-size:.92rem}
 .info p a{text-decoration:none}
 footer{border-top:1px solid var(--line);padding:30px 0 112px;color:var(--muted);font-size:.86rem}
@@ -207,7 +221,7 @@ html[lang="he"] .t-lbl{letter-spacing:.06em;font-size:.92rem}
 .two p{margin:0;color:#ddd4c2;font-size:clamp(1.02rem,1.5vw,1.2rem)}
 .two .n{font-size:clamp(1.45rem,2.4vw,2rem)!important}
 @media(min-width:760px){.two{grid-template-columns:1fr 1fr;border-bottom:1px solid var(--line)}.two>div{padding:30px 34px 32px;border-bottom:0}.two>div:first-child{padding-inline-start:0}.two>div+div{border-inline-start:1px solid var(--line)}}
-.codeligne{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin-top:22px}
+.codeligne{display:flex;flex-direction:column;align-items:flex-start;gap:8px;margin-top:22px}
 .codeligne .lbl{font:500 .92rem/1.2 var(--sans);color:var(--gold2);letter-spacing:.05em}
 .hero .codebox{font-size:clamp(1.45rem,6.2vw,2.2rem);font-weight:700;color:#fff;background:rgba(13,14,19,.6);border:1.5px dashed var(--gold);padding:14px 20px}
 body[data-etat="attente"] .si{visibility:hidden}
